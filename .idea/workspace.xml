@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b48c949d-4f59-49e9-aaee-beac6a3b802a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/PeopleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/CharactersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/People.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Character.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/SWAPI.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/SWAPI.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_03_121949_create_people_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_04_03_121949_create_characters_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-    </list>
+    <list default="true" id="b48c949d-4f59-49e9-aaee-beac6a3b802a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +147,7 @@
       <updated>1585909777116</updated>
       <workItem from="1585909778395" duration="9552000" />
       <workItem from="1586937112921" duration="562000" />
-      <workItem from="1586972647770" duration="4743000" />
+      <workItem from="1586972647770" duration="5021000" />
     </task>
     <servers />
   </component>
