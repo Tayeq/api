@@ -15,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::middleware('auth:api')->group(function () {
-    Route::get('/characters', 'Api\CharactersController@all')->name('characters.all');
+    Route::get('/characters', 'API\CharactersController@all')->name('characters.all');
 
-    Route::get('/characters/{name}', 'Api\CharactersController@get')->name('characters.get');
+    Route::get('/characters/{name}', 'API\CharactersController@get')->name('characters.get');
 
-    Route::post('/characters/refresh', 'Api\CharactersController@refresh')->name('characters.refresh');
+    Route::post('/characters/refresh', 'API\CharactersController@refresh')->name('characters.refresh');
 
     Route::fallback(function(){
         return response()->json(['message' => 'Not Found.'], 404);
