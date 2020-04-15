@@ -4,12 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class People extends Model
+class Character extends Model
 {
     /**
      * Indicates if the model should be timestamped.
      *
      * @var bool
      */
-    protected $timestamps = true;
+    public $timestamps = true;
+
+    protected $fillable = ['name', 'gender', 'culture', 'born', 'died'];
 }

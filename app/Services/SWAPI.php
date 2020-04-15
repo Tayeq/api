@@ -40,7 +40,7 @@ class SWAPI
     }
 
     /**
-     * /people?page=$page
+     * /characters?page=$page
      * @param int $page
      * @return object|null
      */

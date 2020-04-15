@@ -14,10 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::middleware('auth:api')->group(function () {
+    Route::get('/characters', 'Api\CharactersController@all')->name('characters.all');
+
+    Route::get('/characters/{name}', 'Api\CharactersController@get')->name('characters.get');
+
+    Route::post('/characters/refresh', 'Api\CharactersController@refresh')->name('characters.refresh');
+
+    Route::fallback(function(){
+        return response()->json(['message' => 'Not Found.'], 404);
+    })->name('api.fallback.404');
 });
 
-Route::get('/people', 'Api\PeopleController@all')->name('people.all');
 
-Route::post('/people/refresh', 'Api\PeopleController@refresh')->name('people.refresh');

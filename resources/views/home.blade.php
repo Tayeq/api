@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    Your API token: {{ Auth::user()->api_token }}
                 </div>
             </div>
         </div>
